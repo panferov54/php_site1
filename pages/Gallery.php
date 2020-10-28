@@ -5,6 +5,7 @@
         <option value="" selected disabled hidden>Choose ext</option>
         <?php
         $path='images/';
+
         if($dir=opendir($path)){
             $ar=[];
             while ($file=readdir($dir)){
